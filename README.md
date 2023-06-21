@@ -1,51 +1,48 @@
 # ARDUINO-ALARM-SISTEM
 
-## Descripción:
+## Descripción
 Este proyecto consiste en construir un sistema de control de temperatura utilizando un control remoto infrarrojo (IR), una pantalla LCD y varios componentes. El sistema permite a los usuarios controlar el umbral de temperatura, monitorear las lecturas de temperatura y responder a posibles peligros de incendio.
 
-## Componentes Utilizados.
-Placa Arduino
-Módulo receptor de IR
-Control remoto IR
-Pantalla de cristal líquido (LCD)
-Sensor de temperatura
-Motor servo
-Protoboard
-LEDs rojos y verdes
-Resistencias y cables
+## Componentes Utilizados
+- Placa Arduino
+- Módulo receptor de IR
+- Control remoto IR
+- Pantalla de cristal líquido (LCD)
+- Sensor de temperatura
+- Motor servo
+- Protoboard
+- LEDs rojos y verdes
+- Resistencias y cables
 
+## Instalación y Configuración
 
-## Instalación y Configuración.
+1. Conecta los componentes de la siguiente manera:
+   - Conecta el módulo receptor de IR a la placa Arduino.
+   - Conecta la pantalla LCD a la placa Arduino.
+   - Conecta el sensor de temperatura a la placa Arduino.
+   - Conecta el motor servo a la placa Arduino.
+   - Conecta los LEDs rojos y verdes a la placa Arduino.
 
-### Conecta los componentes de la siguiente manera:
-Conecta el módulo receptor de IR a la placa Arduino.
-Conecta la pantalla LCD a la placa Arduino.
-Conecta el sensor de temperatura a la placa Arduino.
-Conecta el motor servo a la placa Arduino.
-Conecta los LEDs rojos y verdes a la placa Arduino.
-Instala las bibliotecas necesarias:
+![Proyecto armado](/src/procesos.png)
 
+2. Instala las bibliotecas necesarias:
+   - Biblioteca IRremote para la funcionalidad del control remoto IR.
+   - Biblioteca LiquidCrystal para la funcionalidad de la pantalla LCD.
+   - Biblioteca Servo para el control del motor servo.
 
-![todo el proceso]("C:\Users\juane\OneDrive\Escritorio\Segundo parcial SPD\ARDUINO-sistema-de-alarma\src\procesos.png")
-
-### Bibliotecas: 
-Biblioteca IRremote para la funcionalidad del control remoto IR.
-Biblioteca LiquidCrystal para la funcionalidad de la pantalla LCD.
-Biblioteca Servo para el control del motor servo.
-
-
+## Uso
 
 El sistema puede ser controlado utilizando el control remoto IR. Presiona los botones correspondientes en el control remoto para realizar diversas acciones:
 
-Botón FUNC/STOP: Enciende el sistema y lo establece en el modo "Primavera".
-Botón >||: Activa la alarma de incendio manualmente y hace que el motor servo se mueva a 180 grados.
-Botón VOL-: Ajusta el umbral de temperatura en -5 grados.
-Botón VOL+: Ajusta el umbral de temperatura en +5 grados.
-Botón 4: Establece el sistema en el modo "Primavera".
-Botón 5: Establece el sistema en el modo "Verano".
-Botón 6: Establece el sistema en el modo "Otoño".
-Botón 7: Establece el sistema en el modo "Invierno".
-Botón ON/OFF: Apaga el sistema.
+- Botón FUNC/STOP: Enciende el sistema y lo establece en el modo "Primavera".
+- Botón >||: Activa la alarma de incendio manualmente y hace que el motor servo se mueva a 180 grados.
+- Botón VOL-: Ajusta el umbral de temperatura en -5 grados.
+- Botón VOL+: Ajusta el umbral de temperatura en +5 grados.
+- Botón 4: Establece el sistema en el modo "Primavera".
+- Botón 5: Establece el sistema en el modo "Verano".
+- Botón 6: Establece el sistema en el modo "Otoño".
+- Botón 7: Establece el sistema en el modo "Invierno".
+- Botón ON/OFF: Apaga el sistema.
 
 La pantalla LCD mostrará la estación actual y la lectura de temperatura.
 
@@ -53,6 +50,9 @@ Si la temperatura supera el umbral o se activa la alarma de incendio manualmente
 
 Para restablecer el sistema, presiona el botón "ON/OFF" en el control remoto IR. Esto apagará todos los componentes y reiniciará el sistema.
 
+## Explicación detallada del código
+
+### Definiciones y Setup
 ## ------Explicacion detallada del codigo-------
 
 ### Definiciones y Setup:
