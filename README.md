@@ -1,7 +1,5 @@
 # ARDUINO-ALARM-SISTEM
 
-## un sistema de alarma manejado a control remoto Nombre  Sistema de Control de Temperatura con Control Remoto IR y Pantalla LCD
-
 ## Descripción:
 Este proyecto consiste en construir un sistema de control de temperatura utilizando un control remoto infrarrojo (IR), una pantalla LCD y varios componentes. El sistema permite a los usuarios controlar el umbral de temperatura, monitorear las lecturas de temperatura y responder a posibles peligros de incendio.
 
@@ -28,7 +26,7 @@ Conecta los LEDs rojos y verdes a la placa Arduino.
 Instala las bibliotecas necesarias:
 
 
-![todo el proceso](/ARDUINO-sistema-de-alarma/src/procesos.png)
+![todo el proceso]("C:\Users\juane\OneDrive\Escritorio\Segundo parcial SPD\ARDUINO-sistema-de-alarma\src\procesos.png")
 
 ### Bibliotecas: 
 Biblioteca IRremote para la funcionalidad del control remoto IR.
