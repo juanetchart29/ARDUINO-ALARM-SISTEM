@@ -199,15 +199,3 @@ void encender(bool CEncendido,int cRespuesta)
         respuesta = 16;
     }
 }
-// void apagar(bool cEncendido,bool cBanderaApagar)
-
-
-
-
-
-//     if(encendido == true && banderaApagar == true)
-//     {
-//         escribirArriba("SISTEMA APAGADO");
-        
-//         encendido = false;
-//     }
